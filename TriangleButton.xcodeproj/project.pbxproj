@@ -13,6 +13,7 @@
 		8494943B1F346BA600F5483E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849494391F346BA600F5483E /* Main.storyboard */; };
 		8494943D1F346BA700F5483E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8494943C1F346BA700F5483E /* Assets.xcassets */; };
 		849494401F346BA700F5483E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8494943E1F346BA700F5483E /* LaunchScreen.storyboard */; };
+		8494944A1F346C1000F5483E /* TriangleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 849494491F346C1000F5483E /* TriangleButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		8494943C1F346BA700F5483E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8494943F1F346BA700F5483E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		849494411F346BA700F5483E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849494481F346C1000F5483E /* TriangleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleButton.h; sourceTree = "<group>"; };
+		849494491F346C1000F5483E /* TriangleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangleButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		8494942F1F346BA600F5483E /* TriangleButton */ = {
 			isa = PBXGroup;
 			children = (
+				849494471F346BCC00F5483E /* TriangleButton */,
 				849494331F346BA600F5483E /* AppDelegate.h */,
 				849494341F346BA600F5483E /* AppDelegate.m */,
 				849494361F346BA600F5483E /* ViewController.h */,
@@ -77,6 +81,15 @@
 				849494311F346BA600F5483E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		849494471F346BCC00F5483E /* TriangleButton */ = {
+			isa = PBXGroup;
+			children = (
+				849494481F346C1000F5483E /* TriangleButton.h */,
+				849494491F346C1000F5483E /* TriangleButton.m */,
+			);
+			path = TriangleButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				849494381F346BA600F5483E /* ViewController.m in Sources */,
+				8494944A1F346C1000F5483E /* TriangleButton.m in Sources */,
 				849494351F346BA600F5483E /* AppDelegate.m in Sources */,
 				849494321F346BA600F5483E /* main.m in Sources */,
 			);
